@@ -40,3 +40,27 @@ Outro problema é que se for fazer uma cópia de um objeto copiando as informaç
 ## Diagrama de uso
 
 <img src="image.png">
+
+
+## Aplicabilidade
+
+* Use quando não deseja depender das classes dos objetos em outras classes
+* utilize para reduzir o numero de subclasses que possuem poucas diferenças entre elas
+
+## PRÓS
+
+* Você pode clonar objetos sem acoplá-los a suas classes concretas.
+* Você pode se livrar de códigos de inicialização repetidos em troca de clonar protótipos pré-construídos.
+* Você pode produzir objetos complexos mais convenientemente.
+* Você tem uma alternativa para herança quando lidar com configurações pré determinadas para objetos complexos.
+
+## CONS
+
+* Clonar objetos complexos que têm referências circulares pode ser bem complicado.
+
+
+
+### Links
+
+* [Implementação do Sistema](https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/)
+* [Explicação mais detalhada](https://refactoring.guru/pt-br/design-patterns/prototype)
